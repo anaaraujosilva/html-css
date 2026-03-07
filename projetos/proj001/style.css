@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(225, 255, 173);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+div.imagem {
+    color: white;
+    display: block;
+    background-image: url(praiafundo2.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-position: absolute;
+    width: 134;
+    height: 400px;
+    padding-top: 5px;
+    border: 3px solid black;
+    border-radius: 0px 0px 7px 7px;
+}
+div a {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+header {
+    color: black;
+    background-color: white;
+    padding-top: -10px;
+    border-radius: 15px;
+    margin: 8px;
+    padding: -5px;
+}
+header a {
+}
+h1 {
+    margin: 0px;
+    padding-top: 20px;
+    padding: 10px;
+    font-size: 2.5em;
+}
+header a {
+    display: inline-blok;
+    text-align: right;
+    color: black;
+}
