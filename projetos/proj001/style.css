@@ -1,4 +1,12 @@
 @charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    a {
+        text-align: center;
+    }
+}
 body {
     background-color: rgb(225, 255, 173);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,6 +20,7 @@ div.imagem {
     background-repeat: repeat-y;
     background-size: 100% 100%;
     background-position: absolute;
+    background-attachment: fixed;
     width: 134;
     height: 400px;
     padding-top: 5px;
@@ -24,6 +33,8 @@ div a {
     text-align: center;
 }
 header {
+    height: 100px;
+    width: 1330px;
     color: black;
     background-color: white;
     padding-top: -10px;
@@ -31,7 +42,14 @@ header {
     margin: 8px;
     padding: -5px;
 }
-header a {
+a.ajuste {
+    padding-left: 15px;
+    text-align: right;
+    background-color: white;
+    text-decoration: none;
+}
+.ajuste:hover {
+    text-decoration: underline;
 }
 h1 {
     margin: 0px;
@@ -43,4 +61,7 @@ header a {
     display: inline-blok;
     text-align: right;
     color: black;
+}
+a.detalhe {
+    text-align: center;
 }
