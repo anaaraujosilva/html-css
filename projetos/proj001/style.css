@@ -2,13 +2,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    
-    a {
-        text-align: center;
-    }
 }
 body {
-    background-color: rgb(225, 255, 173);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
@@ -19,7 +14,7 @@ div.imagem {
     background-image: url(praiafundo2.jpg);
     background-repeat: repeat-y;
     background-size: 100% 100%;
-    background-position: absolute;
+    text-align: center;
     background-attachment: fixed;
     width: 134;
     height: 400px;
@@ -27,10 +22,10 @@ div.imagem {
     border: 3px solid black;
     border-radius: 0px 0px 7px 7px;
 }
-div a {
+div{
     color: white;
     background-color: black;
-    text-align: center;
+    
 }
 header {
     height: 100px;
@@ -42,13 +37,11 @@ header {
     margin: 8px;
     padding: -5px;
 }
-a.ajuste {
-    padding-left: 15px;
+a {
     text-align: right;
-    background-color: white;
     text-decoration: none;
 }
-.ajuste:hover {
+.esquerda:hover {
     text-decoration: underline;
 }
 h1 {
@@ -56,12 +49,24 @@ h1 {
     padding-top: 20px;
     padding: 10px;
     font-size: 2.5em;
+    text-align: left;
 }
 header a {
-    display: inline-blok;
-    text-align: right;
     color: black;
 }
 a.detalhe {
+    border-radius: 7px;
+    padding: 5px;
+    background-color: black;
     text-align: center;
+}
+a.detalhe:hover {
+    text-decoration: underline;
+}
+.detalhe2 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+main {
+    height: 850px;
 }
