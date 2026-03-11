@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            background-color: rgb(11, 5, 17);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1 {
+            color: rgb(197, 144, 247);
+        }
+        table {
+            width: 300px;
+            height: 300px;
+            border-collapse: collapse;
+            border: 3px solid black;
+        }
+        tr.linha {
+            background-color: rgb(197, 144, 247);
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            vertical-align: top;
+        }
+        td.dado {
+            background-color: black;
+            color: white;
+        }
+        td.fundo {
+            background-color: white;
+        }
+        td.fundo2 {
+            background-color: rgb(40, 17, 61);;
+        }
+        .numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr>
+            <td class="dado">A1</td>
+            <td class="fundo">B1</td>
+            <td class="fundo">C1</td>
+        </tr>
+        <tr>
+            <td class="fundo">A2</td>
+            <td class="fundo">B2</td>
+            <td class="fundo">C2</td>
+        </tr>
+        <tr class="linha">
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr>
+            <td class="fundo2">A4</td>
+            <td class="fundo2">B4</td>
+            <td class="fundo2">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
