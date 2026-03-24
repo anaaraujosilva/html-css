@@ -1,2 +1,19 @@
 @charset "UTF-8";
 /* Configuraçoes Gerais*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(49, 52, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px purple;
+    padding: 10px;
+}
