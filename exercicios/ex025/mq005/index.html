@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Estudando Media Queries</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sequi. Minima dolores eum assumenda voluptate molestias tenetur provident doloribus voluptates rem necessitatibus fuga voluptatem saepe harum, aperiam excepturi recusandae id non at laboriosam eos sed, quos facere obcaecati delectus? Et officiis reprehenderit accusantium quidem numquam optio! Atque maiores ipsam molestias nostrum? Qui neque doloremque sint explicabo quidem facere magni est ab expedita fugiat consectetur tenetur, obcaecati quae, praesentium dolorem sequi totam aut? Repellendus vel voluptatem obcaecati dolores et totam ipsa quo voluptates cupiditate asperiores optio inventore neque, voluptatibus ullam sit earum! Excepturi expedita hic esse dolorum molestiae beatae? Quisquam doloribus alias suscipit exercitationem qui aut, consequuntur sequi aspernatur et quod dolor labore architecto velit magnam obcaecati consequatur assumenda corporis ea mollitia laboriosam? Consequuntur inventore tempora cum laborum porro accusantium dolores reprehenderit maxime culpa quidem repellat necessitatibus, reiciendis nostrum non ut excepturi officia distinctio consectetur mollitia sint possimus veritatis! Quod, deleniti.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio molestiae corrupti natus amet. Corrupti incidunt, velit officiis laboriosam assumenda, animi suscipit ipsum, eligendi ab nihil quae voluptates nobis? Error, possimus ipsam. Vero nam optio consequuntur blanditiis veniam sequi nulla, velit, quidem mollitia consequatur molestias ullam iusto nobis. Reiciendis tenetur corrupti temporibus sapiente placeat impedit harum aspernatur velit perspiciatis distinctio a ab porro fugiat incidunt soluta repudiandae vitae ut repellendus ipsa, eligendi earum, laboriosam eum illo mollitia. Temporibus velit molestiae vero architecto id officia laboriosam nam nesciunt deleniti voluptas. Rerum, libero? Facere quasi sunt quisquam tenetur facilis saepe? Eveniet quibusdam vitae doloremque autem reiciendis, totam alias nesciunt ex magnam, ipsam debitis corporis perferendis beatae odio nisi. Sit, consequatur debitis fuga in soluta voluptatem cumque voluptate rem. Officia dolore et temporibus, laborum nam doloremque aut error distinctio in explicabo iure minus sapiente assumenda consequuntur ullam non dignissimos! Ea incidunt tempora sed?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, architecto quos quam neque magni sed sequi repudiandae possimus enim doloremque cupiditate vero blanditiis corporis repellat itaque officiis ex omnis eaque adipisci nihil! Qui, aperiam officiis omnis porro laborum quod dolor natus ipsam quia perferendis alias odio autem, maiores vero rem exercitationem accusamus assumenda nostrum error minima est modi, unde quibusdam. Quia magnam magni totam reprehenderit modi nulla laboriosam accusantium ipsam vero? Debitis repellat nesciunt in aspernatur tempore cupiditate quisquam laborum veniam dolorem aperiam. Porro culpa, autem, debitis deleniti nemo tempora quaerat, doloremque cupiditate perferendis nam esse architecto temporibus eos sint eius ipsum repudiandae ipsam consequatur iste at veniam rem error delectus ea! Odit consectetur nulla beatae adipisci ad commodi hic repellat dolorum error. Quod error ducimus earum incidunt cupiditate officiis velit aspernatur explicabo nulla dolor, consequatur iure excepturi. Cupiditate officia perferendis voluptatibus, dolores recusandae repudiandae unde ullam molestiae enim expedita.</p>
+        </article>
+    </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
