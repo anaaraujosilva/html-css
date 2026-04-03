@@ -7,7 +7,7 @@
 header {
     display: inline-block;
     background-color: white;
-    width: 100vw;
+    width: 90vw;
     height: 60px;
     margin: 10px;
 }
@@ -33,7 +33,7 @@ a:hover {
 div#imagem {
     background-image: url(imagens/ChatGPT\ Image\ 29\ de\ mar.\ de\ 2026\,\ 16_00_50.png);
     background-position: bottom;
-    width: 100vw;
+    width: 97vw;
     height: 200px;
 }
 div#imagem > h1 {
@@ -55,4 +55,66 @@ div#imagem > input[type=submit]{
     border: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
     cursor: pointer;
+}
+section > h2 {
+    margin-top: 25px;
+    padding: 5px;
+}
+section > p {
+    padding: 10px;
+    margin: 10px;
+    text-indent: 30px;
+    text-align: justify;
+}
+section > a {
+    background-color: rgb(92, 153, 92);
+    margin: 10px;
+    border-radius: 7px;
+}
+img.ajuste {
+    float: left;
+    height: 150px;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+section#campo {
+    background-color: rgba(218, 216, 216, 0.233);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 30px;
+    height: 600px;
+    width: 400px;
+}
+section > h1 {
+    text-align: center;
+    color: rgb(92, 153, 92);;
+}
+section#campo > p {
+    text-align: center;
+    text-indent: none;
+    padding: 5px;
+    margin: 5px
+}
+section > img {
+    height: 100px;
+    width: 100px;
+}
+section > h3 {
+    margin-top: 35px;
+    margin-right: 55px;
+    float: right;
+}
+img.detalheimg {
+    height: 140px;
+    width: 120px;
+    
+}
+iframe {
+    margin: 10px;
+    margin-left: 90px;
+}
+p#projetos {
+    text-align: center;
+    margin-right: 23px;
 }
