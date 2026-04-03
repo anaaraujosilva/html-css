@@ -109,5 +109,7 @@ div.campo > input {
     border: none;
     font-size: 1em;
     min-height: 44.5px;
+    width: 182px;
     margin-bottom: 30px
+    
 }
