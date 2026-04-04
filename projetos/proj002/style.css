@@ -9,7 +9,6 @@ header {
     background-color: white;
     width: 100vw;
     height: 60px;
-    margin: 10px;
 }
 nav {
     height: 200px;
@@ -20,6 +19,9 @@ header h1 {
     font-size: 1.8em;
     text-align: left;
     padding-bottom: 10px;
+}
+menu {
+    width: 100vw;
 }
 a {
     text-align: right;
@@ -84,10 +86,8 @@ img.ajuste {
     padding: 10px;
 }
 section#campo {
-    background-color: rgba(218, 216, 216, 0.233);
-    padding: 10px;
+    background-color: rgba(218, 216, 216, 0.233);;
     border-radius: 7px;
-    margin: 30px;
     height: 600px;
     width: 100vw;
 }
@@ -122,7 +122,6 @@ img.detalheimg {
 }
 iframe {
     margin: 10px;
-    mar;gin-left: 90px;
 }
 p#projetos {
     text-align: center;
