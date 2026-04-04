@@ -128,7 +128,10 @@ img.detalheimg {
     
 }
 iframe {
-
+    height: 350px;
+    width: 250px;
+    margin: 15px;
+    margin-left: 130px;
 }
 p#projetos {
     text-align: center;
