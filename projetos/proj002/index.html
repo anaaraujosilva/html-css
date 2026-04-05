@@ -61,30 +61,26 @@
         <br>
     </section>
 
-    <section>
+    <section id="formulario">
         <h1>Entre em Contato</h1>
         <p>Fale conosco agora mesmo</p>
-        <form action="contato.php" method="post">
+        <form action="contato.php" method="post" >
             <p>
                 <label for="inome"></label>
-                <input type="text" name="nome" id="inome">
+                <input type="text" name="nome" id="inome" placeholder="Nome" required minlength="8" maxlength="30">
             </p>
             <p>
                 <label for="iemail"></label>
-                <input type="email" name="email" id="iemail">
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required minlength="8" maxlength="30">
             </p>
             <p>
                 <label for="imen"></label>
-                <input type="text" name="men" id="imen">
+                <input type="text" name="men" id="imen" placeholder="Mensagem">
             </p>
             <p>
-                <input type="submit" value="Enviar">
+                <input class="enviar" type="submit" value="Enviar">
             </p>
         </form>
-        <p>
-            Email: contato@seudominio.com
-            Telefone: (11) 9999-9999
-        </p>
     </section>
     <footer>
         <p>©2026 | Todos os direitos reservados</p>
